@@ -19,14 +19,47 @@
                 }
             }
         }
-    </script> 
+    </script>
 </head>
 
 <body>
     <header>
-
+        <!-- navbar section start  -->
+        <div class=" bg-blue-500">
+            <div class="flex py-3 mx-5 lg:mx-12 bg-blue-500 text-white justify-evenly items-center bg-base-100">
+                <div class="flex-1 flex justify-start items-center">
+                    <img class="w-20" src="images/icons/logo.png" alt="">
+                    <a class="btn btn-ghost text-xl">Idea</a>
+                </div>
+                <!-- all tabs  -->
+                <div role="tablist" class="lg:tabs hidden lg:block text-white">
+                    <a role="tab" class="tab text-white tab-active">Home</a>
+                    <a role="tab" class="tab text-white">About</a>
+                    <a role="tab" class="tab text-white">Works</a>
+                  </div>
+                <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                        <div class="w-10 rounded-full">
+                            <img alt="Tailwind CSS Navbar component"
+                                src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        </div>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 lg:hidden">
+                        <li>
+                            <a class="justify-between">
+                                Home
+                                <span class="badge">New</span>
+                            </a>
+                        </li>
+                        <li><a>About</a></li>
+                        <li><a>Works</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
-    <main>
+    <main class="mx-5 lg:mx-12">
 
     </main>
     <footer>
